@@ -1,0 +1,87 @@
+.main__section {
+    margin: 50px;
+}
+
+.main__heading {
+    margin: 200px 100px 100px;
+}
+
+.main__heading--modify {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.main__fieldset {
+    width: 80%;
+    margin: auto;
+}
+
+.main__legend--modify {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.main__paragraph--modify {
+    font-style: italic;
+    font-weight: 50;
+}
+
+.main__radio {
+    width: 40px;
+    height: 20px;
+}
+
+.main__textarea {
+    margin: 20px;
+    width: 500px;
+}
+
+.main__textarea--modify {
+    background-color: white;
+    font-size: 20px;
+}
+
+.main__submit {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+.main__submit--modify {
+    font-size: 24px;
+    background-color: white;
+}
+
+@media(max-width:1100px) {
+    .main__heading--modify {
+        font-size: 55px;
+    }
+    .main__heading {
+        margin: 200px 50px 50px 50px;
+    }
+}
+
+@media(max-width:700px) {
+    .main--modify {
+        font-size: 16px;
+    }
+    .main__heading--modify {
+        font-size: 48px;
+    }
+    .main__fieldset {
+        width: 100%;
+    }
+    .main__submit {
+        margin: auto;
+    }
+    .main__submit--modify {
+        font-size: 20px;
+    }
+    .main__textarea {
+        width: 100%;
+        margin: auto;
+    }
+    .main__textarea--modify {
+        font-size: 20px;
+    }
+}

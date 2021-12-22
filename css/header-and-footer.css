@@ -1,0 +1,109 @@
+.html {
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+}
+
+.body--modify {
+    background-size: 100%;
+    background-color: rgba(12, 163, 168, 0.247);
+    font-size: 24px;
+    text-align: center;
+}
+
+.header,
+.footer {
+    width: 100%;
+    border: 1px solid rgb(120, 107, 204);
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+
+.header--modify {
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 4;
+    background-color: rgb(12, 163, 168);
+}
+
+.header__nav {
+    margin: 5px;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__item {
+    border: 1px solid rgb(3, 3, 3);
+    margin: 5px 10px;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    transition: 0.5s;
+}
+
+.header__item--modify {
+    list-style: none;
+    display: inline;
+    transition: 0.5s;
+}
+
+.header__item--modify:hover {
+    background-color: rgb(108, 178, 211);
+    box-shadow: 1px 1px 1px 1px rgb(108, 178, 211);
+}
+
+.header__link {
+    padding: 2px;
+}
+
+.header__link--modify {
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer--modify {
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(12, 163, 168);
+}
+
+@media(max-width:1100px) {
+    .header__item--modify {
+        font-size: 17px;
+    }
+    .footer--modify {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:700px) {
+    .header__nav {
+        margin: 0;
+    }
+    .header__item--modify {
+        font-size: 16px;
+    }
+    .header__link--modify {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:500px) {
+    .header__item--modify {
+        font-size: 12px;
+    }
+    .header__link--modify {
+        font-size: 14px;
+    }
+}

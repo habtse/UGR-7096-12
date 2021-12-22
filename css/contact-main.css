@@ -1,0 +1,59 @@
+.main__title {
+    margin: 200px 0 50px 0;
+}
+
+.main__title--modify {
+    font-size: 80px;
+    font-weight: 200;
+}
+
+.main__paragraph {
+    width: 70%;
+    margin: auto;
+}
+
+.main__item {
+    width: 40%;
+    margin: auto;
+    margin: 50px auto;
+}
+
+.main__list {
+    margin: 20px;
+}
+
+.main__link {
+    margin: 0;
+    padding: 20px;
+}
+
+.main__link--modify {
+    text-align: left;
+}
+
+@media (max-width:1000px) {
+    .main__title--modify {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:700px) {
+    .main__title--modify {
+        font-size: 48px;
+    }
+    .main {
+        width: 96%;
+    }
+    .main--modify {
+        font-size: 20px;
+    }
+    .main__paragraph {
+        width: 80%;
+        margin: auto;
+    }
+    .main__item {
+        width: 60%;
+        margin: auto;
+        margin: 30px auto;
+    }
+}

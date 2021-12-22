@@ -1,56 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/comment-main.css">
+    <link rel="stylesheet" href="../css/header-and-footer.css">
+
+
+    <title>COMMENT PAGE</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../home.html">Home</a>
-                    <a href="about_me.html">About me</a>
-                    <a href="html/learning_expireance.html">Learning expireance </a>
-                    <a href="goals.html">Goals</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="comment.html">Comment</a>
+<body class="body body--modify">
+
+    <header class="header header--modify">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__item header__item--modify">
+                    <a class="header__link header__link--modify" href="../index.html ">Home</a> </li>
+                <li class="header__item header__item--modify" id="home"><a class="header__link header__link--modify" href="about_me.html ">About me</a> </li>
+                <li class="header__item header__item--modify"><a class="header__link header__link--modify" href="learning_experiance.html ">Learning experiance </a> </li>
+                <li class="header__item header__item--modify"><a class="header__link header__link--modify" href="goals.html ">Goals</a> </li>
+                <li class="header__item header__item--modify"><a class="header__link header__link--modify" href="contact.html ">Contact</a> </li>
+                <li class="header__item header__item--modify"> <a class="header__link header__link--modify" href="comment.html " id="comment ">Comment</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Comment Page</h1>
-        <section>
-            <p>how do you my portfolio? </p>
-            <form action="">
-                <input type="radio" name="good">
-                <label for="very_good">Very good</label>
+    <main class="main main--modify">
+        <section class="main__section">
+            <h1 class="main__heading main__heading--modify ">Comment Page</h1>
+            <fieldset class="main__fieldset">
+                <legend class="main__legend main__legend--modify">comment box</legend>
+                <form class="main__form" action="">
+                    <h2 class="main__paragraph main__paragraph--modify ">how do you get my portfolio? </h2>
 
-                <input type="radio" name="good">
-                <label for="good">Good</label>
-                <input type="radio" name="good">
-                <label for="poor">poor</label>
-            </form>
-        </section>
-        <section>
-            <p>if you have comment and suggestion write in the box below.</p>
-            <textarea name="comment" id="" cols="30" rows="10" placeholder="comment"></textarea>
-            <form action="">
-                <input type="submit" name="" id="" value="submit">
-            </form>
+
+                    <label class="main__label" for="very good"> Very good</label>
+                    <input class="main__radio" type="radio" name="good" id="very good">
+                    <label class="main__label" for="good"> Good</label>
+                    <input class="main__radio" type="radio" id="good" name="good" width="50">
+                    <label class="main__label" for="poor"> poor</label>
+                    <input class="main__radio " type="radio" id="poor" name="good">
+
+
+                    <h2 class="main__paragraph main__paragraph--modify ">if you have any comment and suggestion write in the box below.</h2>
+                    <label class="main__label" for="textarea">comment area:</label>
+                    <textarea class="main__textarea main__textarea--modify" name="comment" id="textarea" cols="30" rows="10" placeholder="comment"></textarea>
+
+
+                    <br> <br>
+                    <input class="main__submit main__submit--modify" type="submit" name="" id="submit" value="submit">
+                </form>
+            </fieldset>
         </section>
     </main>
-
-    <footer>
-        <p> &copy; copy write</p>
+    <footer class="footer footer--modify">
+        <h1 class="footer__heading"> &copy; copy write</h1>
     </footer>
-
-
 </body>
 
 </html>
