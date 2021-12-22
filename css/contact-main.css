@@ -13,13 +13,51 @@
 }
 
 .main__item {
-    width: 40%;
-    margin: auto;
-    margin: 50px auto;
+    list-style-type: none;
 }
 
-.main__list {
-    margin: 20px;
+.main__listf:before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.main__listl:before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url("../images/linkedln.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.main__listg:before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url("../images/gmail.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.main__listt:before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url("../images/telegram.jpg");
+    background-repeat: no-repeat;
+    margin-right: 5px;
 }
 
 .main__link {
